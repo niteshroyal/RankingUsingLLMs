@@ -1,0 +1,27 @@
+INFO 02/17/2024 12:09:15 PM:  OPTForCausalLM(
+  (model): OPTModel(
+    (decoder): OPTDecoder(
+      (embed_tokens): Embedding(50272, 512, padding_idx=1)
+      (embed_positions): OPTLearnedPositionalEmbedding(2050, 1024)
+      (project_out): Linear4bit(in_features=1024, out_features=512, bias=False)
+      (project_in): Linear4bit(in_features=512, out_features=1024, bias=False)
+      (layers): ModuleList(
+        (0-23): 24 x OPTDecoderLayer(
+          (self_attn): OPTAttention(
+            (k_proj): Linear4bit(in_features=1024, out_features=1024, bias=True)
+            (v_proj): Linear4bit(in_features=1024, out_features=1024, bias=True)
+            (q_proj): Linear4bit(in_features=1024, out_features=1024, bias=True)
+            (out_proj): Linear4bit(in_features=1024, out_features=1024, bias=True)
+          )
+          (activation_fn): ReLU()
+          (self_attn_layer_norm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear4bit(in_features=1024, out_features=4096, bias=True)
+          (fc2): Linear4bit(in_features=4096, out_features=1024, bias=True)
+          (final_layer_norm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (lm_head): Linear(in_features=512, out_features=50272, bias=False)
+)
+INFO 02/17/2024 12:10:23 PM:  Finetuning complete. The finetuned model can be found here: /scratch/c.scmnk4/elexir/ranking_research/learned_models/facebook/opt-350m/checkpoint50-classifier_train

@@ -25,6 +25,11 @@ ls -l datasets/testing
 ls -l datasets/training/*-train-pointwise.jsonl
 ```
 
+* If you want to view the raw dataset from which the above datasets are preprocessed then use:
+```commandline
+ls -l datasets/raw_datasets
+```
+
 
 ### Installation:
 

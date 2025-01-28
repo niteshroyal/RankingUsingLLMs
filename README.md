@@ -1,3 +1,8 @@
+This repository contains datasets and source code used in our paper presented in ACL 2024: 
+
+[Ranking Entities along Conceptual Space Dimensions with LLMs: An Analysis of Fine-Tuning Strategies](https://aclanthology.org/2024.findings-acl.474.pdf)
+
+
 ### Training and Test Datasets
 
 * After executing git clone, goto the main folder containing source code. For me it is:

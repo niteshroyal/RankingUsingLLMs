@@ -1,4 +1,4 @@
-This repository contains datasets and source code used in our paper presented in ACL 2024: 
+**This repository contains datasets and source code used in our paper presented in ACL 2024:** 
 
 [Ranking Entities along Conceptual Space Dimensions with LLMs: An Analysis of Fine-Tuning Strategies](https://aclanthology.org/2024.findings-acl.474.pdf)
 
